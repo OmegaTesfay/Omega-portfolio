@@ -22,10 +22,12 @@ import {ResumeComponent} from '../resume/resume.component';
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'cshbot', component: CshbotComponent }
+    { path: 'cshbot', component: CshbotComponent },
+    { path: 'resume', component: ResumeComponent }
+
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ResumeComponent ],
   providers: [CalcService, CshbotService],
   bootstrap:    [ AppComponent ]
 })
