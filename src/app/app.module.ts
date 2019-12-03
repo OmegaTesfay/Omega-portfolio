@@ -9,17 +9,18 @@ import { HomeComponent } from './home/home.component';
 
 import {ResumeComponent} from '../resume/resume.component';
 import { BioComponent } from '../bio/bio.component';
-
+import { SocialMediaComponent } from '../socialmedia/socialmedia.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
     { path: 'resume', component: ResumeComponent },
-    { path: 'bio', component: BioComponent }
+    { path: 'bio', component: BioComponent },
+    { path: 'socialmedia', component: SocialMediaComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, ResumeComponent, BioComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ResumeComponent, BioComponent, SocialMediaComponent ],
   providers: [],
   bootstrap:    [ AppComponent ]
 })
