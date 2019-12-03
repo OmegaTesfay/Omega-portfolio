@@ -6,29 +6,21 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { CshbotComponent } from './cshbot/cshbot.component';
 
-import { CalcService } from '../calc.service';
-import { CshbotService } from '../cshbot.service';
-
-import { JDComponent } from '../jd.component';
 import {ResumeComponent} from '../resume/resume.component';
+import { BioComponent } from '../bio/bio.component';
 
-//import { TheoComponent } from '../theo/theo.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     { path: '', component: HomeComponent },
-    { path: 'about', component: AboutComponent },
-    { path: 'cshbot', component: CshbotComponent },
-    { path: 'resume', component: ResumeComponent }
-
+    { path: 'resume', component: ResumeComponent },
+    { path: 'bio', component: BioComponent }
 
   ]) ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, CshbotComponent, ResumeComponent ],
-  providers: [CalcService, CshbotService],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, ResumeComponent, BioComponent ],
+  providers: [],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
