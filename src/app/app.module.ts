@@ -13,7 +13,7 @@ import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 
 import { JDComponent } from '../jd.component';
-
+import {ResumeComponent} from '../resume/resume.component';
 
 //import { TheoComponent } from '../theo/theo.component';
 
