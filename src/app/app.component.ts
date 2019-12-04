@@ -3,7 +3,7 @@ import { hello } from '../scripts/custom.js';
 import { CalcService } from '../calc.service';
 import { CshbotService } from '../cshbot.service';
 import { Thingbot } from '../thingbot/thingbot.component';
-//;import { hello } from '../scripts/custom.js'
+
 
 
 @Component({

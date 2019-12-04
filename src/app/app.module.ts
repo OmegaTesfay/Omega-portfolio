@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 
 import {ResumeComponent} from '../resume/resume.component';
 import { BioComponent } from '../bio/bio.component';
-import { SocialMediaComponent } from '../socialmedia/socialmedia.component';
+import { SocialMediaComponent } from '../social-media/socialmedia.component';
 
 
 @NgModule({
